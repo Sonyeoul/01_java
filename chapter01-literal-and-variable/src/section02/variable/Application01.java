@@ -29,5 +29,6 @@ public class Application01 {
         System.out.println(name+"은 쇼핑중독이다\n 지난달"+name + "의 쇼핑몰 포인트는"+point +"이였다");
         point += 100;
         System.out.println("이번달"+name+"의 포인트는"+point+"이다");
+        //&#xC544;&#xBB34;&#xAC70;&#xB098; &#xC218;&#xC815;&#xD574;&#xC11C; commit retry
     }
 }
