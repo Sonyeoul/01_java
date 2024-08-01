@@ -30,5 +30,6 @@ public class Application01 {
         point += 100;
         System.out.println("이번달"+name+"의 포인트는"+point+"이다");
         //&#xC544;&#xBB34;&#xAC70;&#xB098; &#xC218;&#xC815;&#xD574;&#xC11C; commit retry
+        //sec try
     }
 }
