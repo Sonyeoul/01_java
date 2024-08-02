@@ -14,5 +14,17 @@ public class Application {
         *  %=
         *
         * */
+
+        int num = 12;
+        System.out.println("num = " + num);
+
+        num+=3;
+        System.out.println("num = " + num);
+        num %=5;
+        System.out.println("num = " + num);
+        num=12;
+        
+        num *= 4.1;
+        System.out.println("num = " + num);
     }
 }
