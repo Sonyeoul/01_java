@@ -24,5 +24,7 @@ public class Application01 {
         String result5 = (num3>0) ? "양수": (num3==0) ? "0이다":"음수";
 
         System.out.println(""+result3+result4+result5);
+
+
     }
 }
