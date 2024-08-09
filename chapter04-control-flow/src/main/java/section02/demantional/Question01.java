@@ -6,7 +6,8 @@ public class Question01 {
 
     public static void main(String[] args) {
 
-        Question01 q = new Question01();
+        Question q = new Question();
+        q.board();
         q.baduk();
 
 
@@ -14,18 +15,22 @@ public class Question01 {
 
 
     }
-    public void baduk(){
+    public static void board() {
         int[][] baduk = new int[11][11];
-
-        Scanner in = new Scanner(System.in);
-
         for (int i = 0; i < baduk.length; i++) {
             System.out.println();
             for (int j = 0; j < baduk.length; j++) {
                 baduk[i][j] = 0;
                 System.out.print(baduk[i][j] + " ");
             }
-        }
+        }}
+}
+
+    public void baduk(){
+
+
+        Scanner in = new Scanner(System.in);
+
 
         while(true) {
             System.out.println();
@@ -41,7 +46,7 @@ public class Question01 {
                         System.out.print(baduk[i][j] + " ");
                     }
                 }
-            }
+
             System.out.println();
             System.out.println("흰돌 바둑판 X좌표 :");
             int wlX = in.nextInt();
