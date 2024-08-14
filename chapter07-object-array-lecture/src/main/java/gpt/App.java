@@ -14,7 +14,6 @@ public class App {
                 System.out.println(user);
             }
         }
-
         loginService.firstLogin();
     }
 }
